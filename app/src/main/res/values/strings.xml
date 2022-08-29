@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">test2</string>
+
+
+    <string name="text_main_toolbar_menu">Menu</string>
+    <string name="text_main_toolbar_home">Home</string>
+    <string name="text_main_toolbar_back">Back</string>
+    <string name="text_main_menu_todolist">Todolist</string>
+    <string name="text_main_menu_personae">Personae</string>
+
+    <style name="style_button_main_toolbar">?android:attr/buttonBarButtonStyle</style>
+
+    <style name="style_layout_main_toolbar">?android:attr/buttonBarStyle</style>
+</resources>

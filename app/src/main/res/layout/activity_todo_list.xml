@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TodoListActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/style_layout_main_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="682dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/todolist_button_menu"
+            style="@style/style_button_main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:ellipsize="none"
+            android:foregroundTint="@color/black"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:maxHeight="35dp"
+            android:text="@string/text_main_toolbar_menu"
+            android:textColor="@color/black"
+            app:cornerRadius="@null"
+            app:icon="@drawable/ic_menu_foreground"
+            app:iconPadding="0dp"
+            app:iconSize="35dp"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/todolist_button_home"
+            style="@style/style_button_main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:ellipsize="none"
+            android:foregroundTint="@color/black"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/text_main_toolbar_home"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:cornerRadius="@null"
+            app:icon="@drawable/ic_home_foreground"
+            app:iconGravity="start"
+            app:iconPadding="0dp"
+            app:iconSize="70dp"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/todolist_button_back"
+            style="@style/style_button_main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:ellipsize="none"
+            android:foregroundTint="@color/black"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/text_main_toolbar_back"
+            android:textColor="@color/black"
+            app:cornerRadius="@null"
+            app:icon="@drawable/ic_back_foreground"
+            app:iconGravity="start"
+            app:iconPadding="0dp"
+            app:iconSize="70dp"
+            app:iconTint="@color/black" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="474dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
